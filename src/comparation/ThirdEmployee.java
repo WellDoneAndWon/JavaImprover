@@ -60,7 +60,7 @@ public class ThirdEmployee {
 
         @Override
         public int compare(ThirdEmployee emp1, ThirdEmployee emp2) {
-            return emp1.priorityScore - emp2.priorityScore;
+            return emp1.salary - emp2.salary;
         }
     }
 }
