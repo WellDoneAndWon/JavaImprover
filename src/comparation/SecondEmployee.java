@@ -1,6 +1,6 @@
 package comparation;
 
-public class second_Employee implements Comparable<second_Employee> {
+public class SecondEmployee implements Comparable<SecondEmployee> {
     public int id;
     public String name;
     public String surname;
@@ -21,7 +21,7 @@ public class second_Employee implements Comparable<second_Employee> {
 
     public int priorityScore;
 
-    public second_Employee(int id, String name, String surname, int salary, String job, int priorityScore) {
+    public SecondEmployee(int id, String name, String surname, int salary, String job, int priorityScore) {
         this.id = id;
         this.name = name;
         this.surname = surname;
@@ -58,7 +58,7 @@ public class second_Employee implements Comparable<second_Employee> {
         return this.name.compareTo(anotherEmp.name);
     }*/
     @Override
-    public int compareTo(second_Employee anotherEmp) {
+    public int compareTo(SecondEmployee anotherEmp) {
         int result = ((Integer)(this.priorityScore)).compareTo(anotherEmp.priorityScore);
         if (result == 0){
             result = this.name.compareTo(anotherEmp.name);

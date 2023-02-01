@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class first_SimpleCompare {
+public class FirstSimpleCompare {
     public static void main(String[] args) {
         List<String> listNames = new ArrayList<>();
         listNames.add("Tom");
