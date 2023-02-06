@@ -53,3 +53,10 @@ public static <T> T getSecondElement(ArrayList<T> a1){
     return a1.get(1);
 }
 ```
+
+### WildCard <?>
+`<?>` - любой класс
+
+`<? extends X>` - класс Х или любой его сабкласс.
+
+`<? super Y>` - класс Y или любой его суперкласс
